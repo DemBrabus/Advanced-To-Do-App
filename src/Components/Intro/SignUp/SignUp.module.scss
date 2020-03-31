@@ -1,0 +1,41 @@
+.SignUp {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.Content  {
+  margin-top: 60px;
+  text-align: center;
+  padding: 20px 30px;
+}
+
+.PageTitle {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+}
+
+.PageErrorMessage {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(198, 113, 113);
+  margin-bottom: 20px;
+}
+
+.Form {
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.PasswordText {
+  align-self: flex-start;
+  margin-top: -10px;
+  margin-left: 10px;
+  font-size: .7rem;
+  color: rgb(128, 128, 128);
+}

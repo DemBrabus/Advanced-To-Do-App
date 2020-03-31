@@ -1,0 +1,39 @@
+.UserInfo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+
+  width: 100%;
+  padding: 15px 10px;
+}
+
+.Inner {
+  position: relative;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.InfoBlock {
+  display: flex;
+  align-items: center;
+}
+
+  .UserImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(177, 119, 119);
+    cursor: pointer;
+  }
+
+  .InfoBlock p {
+    font-size: 1.4em;
+    margin-left: 10px;
+    white-space: nowrap;
+    cursor: pointer;
+  }

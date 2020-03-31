@@ -1,0 +1,76 @@
+.EditModal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+
+  width: 800px;
+  height: 500px;
+
+  padding: 20px;
+
+  background-color: #FFF;
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 4px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.098);
+}
+
+.Inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.ExitWrap {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.ExitWrapInner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ExitLine1 {
+  width: 100%;
+  height: 2px;
+  background-color: rgb(177, 177, 177);
+  position: absolute;
+  transform: rotate(45deg);
+}
+
+.ExitLine2 {
+  width: 100%;
+  height: 2px;
+  background-color: rgb(177, 177, 177);
+  position: absolute;
+  transform: rotate(-45deg);
+}
+
+
+
+.Header {
+  font-size: 3em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.Instructions {
+  font-size: 1.6em;
+  margin-bottom: 20px;
+}
+
+.FormButtonWrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

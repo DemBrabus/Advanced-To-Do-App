@@ -1,0 +1,54 @@
+.TaskBlock {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  
+  width: 100%;
+  // height: calc(100% - 80px);
+  padding: 10px;
+}
+
+.TitleBlock {
+  width: 100%;
+  padding: 15px 0px;
+  border-bottom: 1px solid rgb(123, 123, 123);
+}
+
+.Title {
+  font-size: 1.4em;
+  color: rgb(174, 174, 174);
+}
+
+
+.TaskList {
+  width: 100%;
+  padding: 15px 0px;
+  // overflow-y: auto;
+}
+
+.TaskList ul {
+  width: 100%;
+  // height: 100%;
+}
+
+.AddBlock {
+  width: 100%;
+  color: rgb(174, 174, 174);
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.AddBlock p {
+  font-size: 1.2em;
+  
+}
+
+.AddBlock:hover {
+  color: rgb(255, 255, 255);
+}

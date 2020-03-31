@@ -1,0 +1,44 @@
+.Task {
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+  // box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.085);
+}
+
+.InfoBlock {
+  display: flex;
+  align-items: center;
+}
+
+.CompleteBox {
+  width: 18px;
+  min-width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  background-color: #303030;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.Name {
+  background-color: transparent;
+  color: #FFF;
+  border: none;
+  margin-left: 10px;
+  font-size: 1.4em;
+}
+  .Name:focus {
+    outline: none;
+  }
+
+.SettingsBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

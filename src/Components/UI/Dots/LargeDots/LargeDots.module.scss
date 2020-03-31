@@ -1,0 +1,50 @@
+.Block {
+  position: relative;
+  padding: 5px;
+}
+
+.LargeDots {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Dot {
+  width: 6px;
+  height: 6px;
+  background-color: #ccc;
+  margin: 0px 2px;
+  border-radius: 50%;
+}
+
+
+
+.DropDown {
+  position: absolute;
+  top: 13px;
+  left: -30px;
+  padding: 7px;
+  border-radius: 4px;
+  background-color: #ccc;
+  color: rgb(81, 81, 81);
+}
+
+.DropDown li {
+  margin: 5px 0px;
+}
+
+.DropDown a {
+  font-size: 1.1em;
+  cursor: pointer;
+}
+.DropDown p {
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.DropDown a:hover {
+  color: rgb(155, 155, 155);
+}
+.DropDown p:hover {
+  color: rgb(155, 155, 155);
+}

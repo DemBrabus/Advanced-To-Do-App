@@ -1,0 +1,45 @@
+.Header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+.Title {
+  font-size: 2.8em;
+
+}
+
+.HeaderOptions {
+  display: flex;
+  align-items: center;
+}
+
+.Date {
+  font-size: 1.4em;
+  margin-right: 20px;
+  color: rgb(193, 73, 73);
+}
+
+
+.Complete {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Edit {
+  margin-left: 7px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.EditText {
+  font-size: 1.6em;
+}

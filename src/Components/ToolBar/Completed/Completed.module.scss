@@ -1,0 +1,71 @@
+.Completed {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+
+  padding:0px 10px;
+  background-color: #202020;
+  z-index: 2;
+
+  transition: max-height .5s ease-in;
+}
+
+
+.Inner {
+  position: relative;
+  width: 100%;
+}
+
+
+.TitleWrap {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+  color: rgb(174, 174, 174);
+  border-top: 1px solid rgb(123, 123, 123);
+  cursor: pointer;
+
+  span {
+    font-size: 2em;
+    margin-right: 5px;
+    margin-top: -3px;
+  }
+}
+
+.Title {
+  font-size: 1.4em;
+}
+
+.Count {
+  position: absolute;
+  right: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.2em;
+}
+
+
+@media screen and (max-width: 1270px){
+  .TitleWrap {
+    span {
+      font-size: 1.4em;
+      margin-top: -2px;
+    }
+  }
+}
+
+@media screen and (max-height: 700px){
+  .TitleWrap {
+    span {
+      font-size: 1.4em;
+      margin-top: -2px;
+    }
+  }
+}
+
+

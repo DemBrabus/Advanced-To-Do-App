@@ -1,0 +1,27 @@
+.Button {
+  width: 120px;
+  height: 50px;
+
+  font-size: 1.4em;
+  font-weight: 500;
+  color: #FFF;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 4px;
+  margin: 20px 20px;
+  border: 1px solid #FFF;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.091);
+
+  cursor: pointer;
+  outline-color: rgb(126, 159, 199);
+
+
+}
+
+.Button:hover {
+  color: rgb(232, 232, 232);
+  box-shadow: none;
+}
